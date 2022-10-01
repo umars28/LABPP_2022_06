@@ -3,6 +3,7 @@
 golongan = (input("Golongan = ")).upper() #using upper because there is a possibility of input using lower
 daya = int(input("Daya(VA) = "))
 Pemakaian = int(input("Pemakaian = "))
+tarif = 0
 
 #using elif else to calculate data
 if golongan =='R1' and daya <= 900:

@@ -1,8 +1,8 @@
 #soal program 3
 #input int variable
-A = int(input('Masukkan nilai variabel A: '))
-B = int(input('Masukkan nilai variabel b: '))
-C = int(input('Masukkan nilai variabel c: '))
+A = int(input("Masukkan nilai variabel A: "))
+B = int(input("Masukkan nilai variabel b: "))
+C = int(input("Masukkan nilai variabel c: "))
 
 #using elif else to compare variable values
 if A > B and A > C:
