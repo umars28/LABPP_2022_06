@@ -3,7 +3,6 @@ import numbers
 
 def sorting(numbers) :
     for i in range(len(numbers)) :
-        print(i)
         index_minimum = i
         for j in range(i+1, len(numbers)) :
             print(j)
