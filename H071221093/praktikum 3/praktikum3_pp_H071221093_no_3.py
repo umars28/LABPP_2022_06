@@ -7,7 +7,7 @@ print('kembalian:', kembalian)
 
 for uang in JenisUang:
     if uang > kembalian :
-        continue
+        BanyaknyaUang = 0
     BanyaknyaUang = int(kembalian / uang)
     kembalian = kembalian - (uang * BanyaknyaUang)
     print(BanyaknyaUang, 'uang Rp.', uang) 
