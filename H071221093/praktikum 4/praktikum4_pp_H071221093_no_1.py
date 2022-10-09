@@ -2,7 +2,6 @@ def sorting(numbers) :
     for i in range(len(numbers)) :
         index_minimum = i
         for j in range(i+1, len(numbers)) :
-            print(j)
             if numbers[index_minimum] > numbers[j] :
                 index_minimum = j
         if index_minimum != i :     
