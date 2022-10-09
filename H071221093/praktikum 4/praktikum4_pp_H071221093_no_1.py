@@ -1,6 +1,3 @@
-import numbers
-
-
 def sorting(numbers) :
     for i in range(len(numbers)) :
         index_minimum = i
