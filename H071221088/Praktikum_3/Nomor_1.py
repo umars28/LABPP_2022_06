@@ -3,6 +3,7 @@ b = int(input('Masukkan Nilai Y: '))
 
 if a < b:
     for i in range(1,b+1):
+        print(i)
         print(i, end= ' ')
         if i % a == 0:
             print()
