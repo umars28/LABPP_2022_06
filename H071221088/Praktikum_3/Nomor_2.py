@@ -8,11 +8,11 @@ detik = sisa % 60
 
 if a < 270:
     if 6 <= jam < 12:
-         print('Selamat pagi')
+        print('Selamat pagi')
     elif 12 <= jam < 15:
         print('Selamat Siang')
     elif 15 <= jam < 18:
-            print('selamat sore')
+        print('selamat sore')
 elif a > 270 and a <= 360:             
     jam = jam - 24
     if 6 >= jam :
